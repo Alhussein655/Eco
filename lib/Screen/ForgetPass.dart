@@ -12,7 +12,7 @@ class _ForgetPassState extends State<ForgetPass> {
   Widget build(BuildContext context) {
     return
 Scaffold(
-  backgroundColor: Colors.black45,
+  backgroundColor: Colors.lightBlue,
   body:       ListView(
     children: [
       SizedBox(height: 100,),
@@ -27,15 +27,15 @@ Scaffold(
       ),
       Align(alignment:Alignment.center,child: Text('Forgot Password?',style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,color: Colors.white),)),
     SizedBox(height: 30,)
-      ,  Align(alignment:Alignment.center,child: Text('We just need you to register your mail ',style: TextStyle(fontSize: 15,fontWeight: FontWeight.w300,color: Colors.grey),)),
-     Align(alignment:Alignment.center,child: Text('to send you passsword reset ',style: TextStyle(fontSize: 15,fontWeight: FontWeight.w300,color: Colors.grey),)),
+      ,  Align(alignment:Alignment.center,child: Text('We just need you to register your mail ',style: TextStyle(fontSize: 15,fontWeight: FontWeight.w300,color: Colors.grey[200]),)),
+     Align(alignment:Alignment.center,child: Text('to send you passsword reset ',style: TextStyle(fontSize: 15,fontWeight: FontWeight.w300,color: Colors.grey[200]),)),
       CustomTextField(hint: 'E _ mail',secure: false,icon: Icons.person,),
       Padding(
         padding: const EdgeInsets.all(20.0),
         child: Container(
           height: 60,width: 90,
-          decoration: BoxDecoration(color: Colors.green,borderRadius: BorderRadius.circular(15)),
-        child: Center(child: Text('Reset Password',style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold,color: Colors.grey[300]),))
+          decoration: BoxDecoration(color: Colors.lightBlue,borderRadius: BorderRadius.circular(15)),
+        child: Center(child: Text('Reset Password',style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold,color: Colors.grey[200]),))
         ),
       ),
       SizedBox(
@@ -43,7 +43,7 @@ Scaffold(
       )
       ,Padding(
         padding: const EdgeInsets.all(15.0),
-        child: Align(alignment:Alignment.center,child: Text('Dont have an account ?',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 15,color: Colors.grey),)),
+        child: Align(alignment:Alignment.center,child: Text('Dont have an account ?',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 15,color: Colors.grey[200]),)),
       ),
       TextButton(onPressed: (){}, child: Text('Sign Up',style: TextStyle(color: Colors.grey[200],fontSize: 20,fontWeight: FontWeight.bold),))
 

@@ -19,7 +19,8 @@ class _CustomTextFieldState extends State<CustomTextField> {
           child: Container(
             height: 50,
             decoration: BoxDecoration(
-                color: Colors.deepOrange,
+              border:Border.all(color: Colors.grey,width: 1),
+                color: Colors.lightBlue,
                 borderRadius: BorderRadius.circular(20)),
             child: TextFormField(
               obscureText: widget.secure,

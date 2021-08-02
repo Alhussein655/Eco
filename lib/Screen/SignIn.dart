@@ -27,7 +27,7 @@ class _SignInState extends State<SignIn> {
             padding: const EdgeInsets.all(8.0),
             child: Align(alignment:Alignment.topRight,child: TextButton(onPressed: (){
               Navigator.pushNamed(context, ForgetPass.id);
-            }, child: Text('Forget Pass',style: TextStyle(color: Colors.deepOrange,fontSize: 15),))),
+            }, child: Text('Forget Pass',style: TextStyle(color: Colors.deepOrange,fontSize: 18),))),
           )
           ,
           Padding(
